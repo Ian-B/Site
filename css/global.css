@@ -1,0 +1,285 @@
+@font-face {
+	font-family: 'UbuntuBold';
+	font-weight: normal;
+    font-style: normal;
+	src: url('fonts/ubuntu-bold-webfont.eot');
+	src: url('fonts/ubuntu-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('fonts/ubuntu-bold-webfont.woff') format('woff'),
+	 url('fonts/ubuntu-bold-webfont.ttf') format('truetype'),
+	 url('fonts/ubuntu-bold-webfont.svg#UbuntuBold') format('svg');
+}
+@font-face {
+	font-family: 'UbuntuLight';
+	font-weight: normal;
+    font-style: normal;
+	src: url('fonts/ubuntu-light-webfont.eot');
+	src: url('fonts/ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ubuntu-light-webfont.woff') format('woff'),
+	url('fonts/ubuntu-light-webfont.ttf') format('truetype'),
+	url('fonts/ubuntu-light-webfont.svg#UbuntuLight') format('svg');
+}
+@font-face {
+	font-family: 'UbuntuMedium';
+	font-weight: normal;
+    font-style: normal;
+	src: url('fonts/ubuntu-medium-webfont.eot');
+	src: url('fonts/ubuntu-medium-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ubuntu-medium-webfont.woff') format('woff'),
+	url('fonts/ubuntu-medium-webfont.ttf') format('truetype'),
+	url('fonts/ubuntu-medium-webfont.svg#UbuntuMedium') format('svg');
+}
+@font-face {
+	font-family: 'Ubuntu';
+	font-weight: normal;
+    font-style: normal;
+	src: url('fonts/ubuntu-regular-webfont.eot');
+	src: url('fonts/ubuntu-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('fonts/ubuntu-regular-webfont.woff') format('woff'),
+	url('fonts/ubuntu-regular-webfont.ttf') format('truetype'),
+	url('fonts/ubuntu-regular-webfont.svg#Ubuntu') format('svg');
+}
+body {
+	/*background-color: #F4F3EF;  Darker Beige  */
+	/*background-color: #f7f7f8;  Light Beige  */
+	background-color: #f2f2f2
+	/*background-color:ffffff;*/
+}
+#outer {
+	position: absolute;
+}
+#header {
+	position: absolute;
+	margin: 60px 0 0 35px;
+	width: 160px;
+}
+#header h5 {
+	margin-top: 0;
+}
+#side {
+	position: absolute;
+	width: 160px;
+	margin: 80px 35px 0 35px;
+	padding-top: 23px;
+	border-top: 3px solid;
+}
+#side h4, #about h4, #right_info h4, .viewer h4 {
+	margin-top: -2px;
+}
+#about {
+	padding-top: 23px;
+}
+#content {
+	position: relative;
+	width: 770px;
+	min-height: 460px;
+	margin: 80px 0 0 230px;
+}
+#category {
+	border-top: 3px solid;
+	margin-right: 35px;
+}
+#right_info {
+	position: absolute;
+	margin-left: 805px;
+	margin-top: 80px;
+	width: 160px;
+	border-top: 3px solid;
+	padding-top: 23px;
+}
+#footer_left {
+	position: absolute;
+	margin-left: 35px;
+	width: 160px;
+	border-top: 1px solid #999;
+	margin-top: -1px;
+	padding-top: 15px;
+}
+#footer_right {
+	position: absolute;
+	margin-left: 230px;
+	width: 735px;
+	border-top: 1px solid #999;
+	margin-top: -1px;
+	text-align: right;
+	padding-top: 10px;
+}
+h4 {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	letter-spacing: 0.5px;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	line-height: 120%;
+}
+#about h4, #right_info h4 {
+	letter-spacing: 0.5px;
+}
+h4.about-me {
+	font-weight: lighter;
+}
+h4.back {
+	margin-top: -4px;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+}
+h4.back img {
+	margin-top: 0;
+	padding-bottom: 2px;
+}
+h5 {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	margin-top: 4px;
+}
+h5.home {
+	color: #f37b00;
+	/*color: rgb(0, 0, 0);*/
+	cursor: pointer;
+	font-size: 0.75em;
+	
+}
+h5.article {
+	font-size: 0.95em;
+	font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: rgb(173,173,173);
+	line-height: 1.2;
+}
+h5.news {
+	font-size: 1em;
+}
+h5.project {
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.align {
+	display: inline-table;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#date {
+	float: right;
+}
+/* Back to Top */
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+	font-family: UbuntuBold, Arial, Helvetica, sans-serif;
+	margin-top: 0;
+	color: rgb(0,0,0);
+}
+.link-twitter:hover, .link-facebook:hover, .link-google:hover {
+	cursor: pointer;
+}
+p {
+	font-family: Ubuntu, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	line-height: 11.5pt;
+	margin: 0;
+	color: rgb(127,128,130);
+}
+p span {
+	font-family: UbuntuMedium, Arial, Helvetica, sans-serif;
+}
+
+#about p span {
+       padding-left: 5px;        
+}
+
+p.about {
+	font-family: UbuntuLight, Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 13pt;
+	line-height: 16pt;
+	color: rgb(173,173,173);
+	letter-spacing: 0.5px;
+}
+p.indent {
+	padding-left: 33px;
+}
+p.link:hover, p.link-show:hover, p.link-about:hover, p.link-news:hover, p.link-design:hover, p.link-type:hover, p.link-back_news:hover, p.link-web:hover, p.link-photo:hover, p.link-next:hover, p.link-back:hover, p.link-home:hover, p.link-next_news:hover, p.link-home_news:hover {
+	cursor: pointer;
+	font-family: UbuntuMedium, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	line-height: 11.5pt;
+	margin: 0;
+	color: rgb(127,128,130);
+}
+
+#news h4 {
+	line-height: 1px;
+}
+
+#news_content {
+	position: static;
+}
+#left_content {
+	float: left;
+	width: 364px;
+	margin-right: 22px;
+	margin-top: 5px;
+}
+#right_content {
+	float: left;
+	width: 364px;
+	margin-top: 5px;
+}
+#other_content {
+	clear: both;
+}
+#about, #news, #right_info, #category_nav, #news_nav, #category {
+	display: none;
+}
+#line-about {
+	float: right;
+	margin-top: -10px;
+	border-top: 1px solid #999;
+	width: 160px;
+	display: none;
+}
+.line {
+	width: 540px;
+	border-top: 1px solid #999;
+
+}
+.line_news {
+	width: 750px;
+	border-top: 1px solid #999;
+}
+div.div-img {
+	display:inline-block;
+	margin-left:-40px;
+	padding:0;
+	margin-right:32px;
+	margin-bottom:32px;
+}
+ul.image-overlay li a img{
+	border-top: 3px solid;
+}
+ul.image-overlay li a img:hover{
+	border-top: 3px solid;
+}
+div.viewer {
+	height: 160px;
+	width: 160px;
+	background-color: #FFF;
+	display: inline-table;
+	padding: 2px;
+	margin-right: 32px;
+	margin-bottom: 32px;
+	border-top: 3px solid;
+	cursor: pointer;
+}
+div.viewer h4 {
+	margin-top:23px;
+	margin-bottom: 8px;
+}
+div.bkimg {
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images/more.png);
+}
+img.viewer:hover {
+	cursor:pointer;
+}

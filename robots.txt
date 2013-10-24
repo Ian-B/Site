@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /jeniferbulcock/images/
+Allow: /jeniferbulcock/index.html
+Allow: /jeniferbulcock/projects
+Allow: /
+Allow: /jeniferbulcock/news/
+Disallow: /jeniferbulcock/old/
+
